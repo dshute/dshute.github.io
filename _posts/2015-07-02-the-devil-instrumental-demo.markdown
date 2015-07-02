@@ -2,7 +2,7 @@
 layout: post
 title:  "The Devil - Instrumental Demo"
 date:   2015-07-02 00:32:25
-categories: personal
+categories: music
 ---
 
 One of those looming deadline projects I've been dealing with has been a song for a short film I was asked to do. That one hasn't been so much procrastination as it has been a lack of time and proper tools to do it. 
