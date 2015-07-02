@@ -3,9 +3,10 @@ title: Working with a Broken Machine
 email: hey.ugly@davidshute.ca
 description: Writer. Musician. Media dabbler. Language enthusiast. Homebrewer. Software tester. Man with too many hobbies.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://davidshute.ca" # the base hostname & protocol for your site
+url: "http://dshute.github.io" # the base hostname & protocol for your site
 twitter_username: davidshute
 github_username:  dshute
+
 
 # Build settings
 markdown: kramdown

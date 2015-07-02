@@ -2,7 +2,7 @@
 layout: post
 title:  "Success Criteria"
 date:   2015-01-22 23:53:25
-categories: announcements
+categories: process
 ---
 
 With my upcoming audio drama project I wanted to set some objective and clear cut goals for what success actually means. There are nebulous ones, of course. A certain level of technical quality or acting quality. Maybe the numbers of listeners (though this says nothing about how many qualifies as successful).

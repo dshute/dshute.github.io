@@ -2,7 +2,7 @@
 layout: post
 title:  "Podcasts"
 date:   2015-02-05 23:53:25
-categories: announcements
+categories: podcasts
 ---
 
 I listen to quite a few podcasts. A number of them have shuffled in and out over the years. These are the ones that have really stuck and seems to be a fixture in my downloads. Presented here as there doesn’t seem to be a good service for maintaining a list of these in a publicly accessible and friendly manner (that I am aware which means I am likely wrong).

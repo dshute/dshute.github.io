@@ -2,7 +2,7 @@
 layout: post
 title:  "Moving to Jekyll"
 date:   2015-06-30 23:53:25
-categories: jekyll update
+categories: annoucements
 ---
 
 I hate WordPress. 

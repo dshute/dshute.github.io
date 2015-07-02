@@ -2,7 +2,7 @@
 layout: post
 title:  "Show Your Work"
 date:   2014-12-18 23:53:25
-categories: process
+categories: reading
 ---
 
 I finished reading [Show Your Work by Austin Kleon](http://austinkleon.com/show-your-work/) on Wednesday. I’m not going to delve into it too much other than to recommend it as a good collection of practical advice in a fairly quick read. I chewed through it pretty quickly in two days of short reading bursts here and there.
