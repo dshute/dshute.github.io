@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Podcasts"
+date:   2015-02-05 23:53:25
+categories: announcements
+---
+
+I listen to quite a few podcasts. A number of them have shuffled in and out over the years. These are the ones that have really stuck and seems to be a fixture in my downloads. Presented here as there doesn’t seem to be a good service for maintaining a list of these in a publicly accessible and friendly manner (that I am aware which means I am likely wrong).
+
+- [youarenotsosmart](https://gpodder.net/podcast/youarenotsosmart-on-soundcloud)
+- [Radiolab from WNYC](https://gpodder.net/podcast/wnycs-radiolab)
+- [Stuff You Should Know](https://gpodder.net/podcast/stuff-you-should-know)
+- [NPR: TED Radio Hour Podcast](https://gpodder.net/podcast/npr-ted-radio-hour-podcast)
+- [WTF with Marc Maron Podcast](https://gpodder.net/podcast/wtf-with-marc-maron-podcast-episodes)
+- [The Truth](https://gpodder.net/podcast/jonathan-mitchell-1-on-soundcloud)
+- [This American Life](https://gpodder.net/podcast/this-american-life)
+- [Savage Lovecast](https://gpodder.net/podcast/savage-love-podcast-1)
+- [NPR: Wait Wait… Don’t Tell Me! Podcast](https://gpodder.net/podcast/npr-wait-wait-dont-tell-me-podcast)
+- [The Moth Podcast](https://gpodder.net/podcast/the-moth-podcast)
+- [NPR: Ask Me Another Podcast](https://gpodder.net/podcast/npr-ask-me-another-podcast-1)
+- [NPR: Snap Judgment Podcast](https://gpodder.net/podcast/npr-snap-judgment-podcast)
+- [NPR: Planet Money Podcast](https://gpodder.net/podcast/npr-planet-money-podcast)
+- [CANADALAND](https://gpodder.net/podcast/canadaland) 
+- [On the Media](https://gpodder.net/podcast/on-the-media)
+- [Serial](https://gpodder.net/podcast/serial)
+- [Tonebenders](https://gpodder.net/podcast/1a83760ea58911e49fb6aa0000139656)
+- [On Being](https://gpodder.net/podcast/on-being-3)
+- [NPR: Invisibilia Podcast](https://gpodder.net/podcast/npr-invisibilia-podcast)
+- [StartUp Podcast](https://gpodder.net/podcast/startup-podcast-1)
+- [We’re Alive – A “Zombie” Story of survival](https://gpodder.net/podcast/were-alive-a-zombie-story-of-survival)
+	- This one is done. The series wrapped up, but it’s worth going back and listening to if you haven’t heard it before. It’s got its flaws, but it’s one of the best serialized audio dramas out there.
+
+The links all open up to gpodder, which I use for podcasts.
