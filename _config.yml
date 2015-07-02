@@ -5,8 +5,8 @@ description: Writer. Musician. Media dabbler. Language enthusiast. Homebrewer. S
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dshute.github.io" # the base hostname & protocol for your site
 twitter_username: davidshute
+twitter2_username: heavyliftingind
 github_username:  dshute
-
 
 # Build settings
 markdown: kramdown
