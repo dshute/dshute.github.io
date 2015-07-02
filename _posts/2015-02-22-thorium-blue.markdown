@@ -23,6 +23,6 @@ Finally, I moved to Fade In to write the script itself. Fade In is my current pr
 
 This is the script I submitted.
 
-Thorium Blue - David Shute
+[Thorium Blue - David Shute]({{site.url}}/writing/Thorium-Blue-David-Shute.pdf)
 
-The script is licensed under Creative Commons. You can find the full details of the licensing here.
+The script is licensed under Creative Commons. You can find the [full details of the licensing here](https://creativecommons.org/licenses/by-nc-sa/4.0/).
