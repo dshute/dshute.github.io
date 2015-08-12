@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Def Con 23"
+date:   2015-08-11 11:25:17
+categories: announcements
+---
+
+I had been meaning to get to Def Con for a number of years. I had approval through work to attend last year, but some things came up in my personal life that I needed to take care of. After getting approval to go again this year I made it a priority to ensure that I could follow through on it. I'm not going to write too much on the conference itself, there are much more adept minds having already done as much and more, but I wanted to get a few notes down.
+
+This was my first time to Las Vegas. It strikes me as a giant playground built by an extremely rich and extremely tacky person with the express purpose of allowing toddlers and teenagers to trash the place daily. The extreme artifice doesn't jive particularly well with my sensibilities. I tend to gravitate toward culture and found myself surrounded by the absence of it.
+
+The Flamingo is a horrifying hotel. I didn't step on a single elevator that wasn't broken and, in fact, had one abruptly drop five feet and freeze up while I was on it. Every trip to the 28th floor and back felt like the most serious gambling I could partake in. 
+
+As a teenage, security and programming was a strong point of fascination for me. Despite really not owning my own computer until I was in my 20s. I've stayed in the general industry, my schooling based around IT and my work history in software testing, but I've been away from it. It's really been far too long. While I knew that desire to be involved in computer security was still there, the drive to act on that desire has been drop kicked pretty hard by Def Con. 
+
+I expect, over the next little while, my focus is going to become a lot more technical. I also expect that a lot of that is going to come out here. I have a lot of little projects I want to undertake, a new obsession in lock picking, a software testing talk I'm working on putting together, and a whole lot more.
