@@ -2,7 +2,7 @@
 layout: post
 title:  "Def Con 23"
 date:   2015-08-11 11:25:17
-categories: announcements
+categories: personal
 ---
 
 I had been meaning to get to Def Con for a number of years. I had approval through work to attend last year, but some things came up in my personal life that I needed to take care of. After getting approval to go again this year I made it a priority to ensure that I could follow through on it. I'm not going to write too much on the conference itself, there are much more adept minds having already done as much and more, but I wanted to get a few notes down.
