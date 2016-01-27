@@ -36,7 +36,7 @@ public AudioClip[] clips;
 
 Now Unity will ask me how many clips to use and give me an element for each one to drop in any clip that I want.
 
-Now, the next step threw me for a seconds. I felt like I needed as many AudioSource components as I had AudioClip components. This becomes a bit stickier, as I'd like to be able to reuse this. I don't know how many clips I'm going to have. How am I supposed to know how many AudioSources I'm going to need.
+Now, the next step threw me for a few seconds. I felt like I needed as many AudioSource components as I had AudioClip components. This becomes a bit stickier, as I'd like to be able to reuse this. I don't know how many clips I'm going to have. How am I supposed to know how many AudioSources I'm going to need.
 
 This was just a flat out misunderstanding of how it was working to begin with. There's a little bit of supposition here, but I believe the initial code was bouncing back and forth between two audio sources to ensure they were appropriately loaded and able to trigger seamlessly between the two. In that case, it doesn't matter how many AudioClip components there are, they just need to be assigned to alternating AudioSource components.
 
@@ -140,9 +140,9 @@ Aside from that, it's pretty straight forward.
 
 #### What That Shit Do?
 
-Right now, it seems to be working adequately. It's no where near where I'd like it to do, but I could fairly easily drop this into any scene, cram a bunch of clips into, and have it happily play forever.
+Right now, it seems to be working adequately. It's nowhere near what I'd like it to do, but I could fairly easily drop this into any scene, cram a bunch of clips into it, and have it happily play forever.
 
-Where it falls down for me is right in the above statement. There's not logic to help it to do anything more interesting that just taking a single massive track, dropping it into an AudioSource component, and tick play on awake and loop. What I'd like to do is just have it build up on its own. Give a decision tree and let it keep generating the track as it goes.
+Where it falls down for me is right in the above statement. There's no logic to help it to do anything more interesting that just taking a single massive track, dropping it into an AudioSource component, and tick play on awake and loop. What I'd like to do is just have it build up on its own. Give a decision tree and let it keep generating the track as it goes.
 
 Since we're never going to "reach the end" we don't have to worry about having a specific ending. Clip 0 is our intro and is only ever played once. Outside of that, any other clip can and should have more than one possible target for next track. If we consider source and target as follows for an eight clip section.
 

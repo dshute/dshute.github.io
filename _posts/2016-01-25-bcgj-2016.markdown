@@ -1,0 +1,58 @@
+---
+layout: post
+title:  "Bacongamejam 2016"
+date:   2016-01-24 23:05:59
+categories: gamedev  
+---
+
+I took part in the Bacongamejam this past weekend. I don't have a whole lot to mention about it, mostly because I don't want to spend a bunch of time writing about it when it I could be working on other things. I have a few notes that I jotted down about my general feelings and this is mostly a transcription.
+
+I'm not terribly concerned about any of these things. They are simply observations made after the fact. The truth is that a novice team that had never worked together before, let alone on a game jam, managed to hit about 95% of our goals and released on time.
+
+#### Don't Make Assumptions
+
+I already totally know this one, but it's a nice reminder.
+
+I made some assumptions about the team composition. My expectation was that there was a structural leader, but that the individuals were autonomous in their jobs. This wasn't entirely the case. There were some gaps that were left to be filled due to needed direction. Given the feeling that this was largely a peer group, without a dedicated leader, direction was done slowly and by committee.
+
+I made some assumptions about gameplay / story gaps. There were some pieces I left undefined in the story / scripting that I assumed would be filled in as part of game play / design. I further assumed that if there were questions they would be asked. When looking at our submission those gaps were integrated whole cloth.
+
+#### Pull Before Making Commits
+
+I ended up hosing my local version when I committed changes before doing a pull. Audio assets were my secondary responsibility. About an hour before finishing up there was a request to commit an updated version of a file. I made the changes, added the commits locally, and then attempted to push.
+
+I was a full day of commits out of sync. The files I'd been working on had been moved into another directory entirely.
+
+Maybe there's an easy way to remedy this, but I don't use git in depth, so I have no idea what that solution is. The shorter distance was just to kill my local version, clone the source, and then make my changes.
+
+#### Deadlines, Even Self Imposed, are a Good Thing
+
+While working I forced myself to be cognizant of the time and when I was making commits. If I was working on my portion I was pushing to make sure I was doing a commit at the end of each piece of work or on the hour. Whichever came first.
+
+I did this to ensure that other people could start working. I also did it so people wouldn't have to stop me to ask questions. Contribute to their work output while maintaining my own flow.
+
+This was really beneficial. When working I was focused, delivering, and got a lot done in a short amount of time.
+
+#### Focus on your Strengths
+
+The tight deadline really means you need to be delivering, not actively learning. As much as I would have liked to have contributed more to the coding side, it's not my strength. Story, scripting, dialogue, and audio are all very natural for me. I don't have to spend time figuring out what to do. I can just get down to work. This allowed me, as above, to get out of the way of others.
+
+#### Double Check Your work
+
+I had a BSOD in the middle of exporting audio. I had essentially recorded all the game dialogue in one massive session with multiple takes and then just started exporting time selected sections. I thought that I had completed the export before the BSOD, but it's likely this happened mid export.
+
+The audio segment I needed to recommit was the one I was working on when my system vomited all over itself. It got roughly halfway through before it was cut off. Since mp3 audio is just a stream it wasn't caught until someone went through and listened to the entire clip.
+
+There were also some spelling mistakes, missing words, and word substitutions my mind does as shortcuts when I'm writing quickly. Since those were imported from script into game engine wholesale they were never caught. It wouldn't have taken much extra time / effort on my behalf to catch those before they were imported.
+
+#### Aim Outside your Comfort Zone
+
+While audio is very comfortable for me, recording my voice and voice acting is absolutely not. I've always considered doing acting work in some aspect or another, but I have zero experience doing so. I was aiming for "not shit" and I think I hit that marker alright while still being a damn sight short of "good".
+
+It helped to reinforce my audio workflow. I tend to over tweak when doing audio work. Spending ten minutes on a decent sounding chain and then exporting clips from that track forced me to work efficiently.
+
+It was also nice to just do the voice work. It's a skill I am desperately lacking in and this was a nice step forward in being comfortable to doing it again in the future. It also allowed me to tighten up some of the dialogue. Recording pointed out some of those areas where the dialogue wasn't quite as natural as I'd like. It also pointed out where I'd been a little too repetitious.
+
+#### Overall
+
+It was a really positive experience. I don't feel like I wasted any of that time or should have spent it doing other work. Did we make a good game? Probably not. But for a first outing I'm happy we made the deadline and delivered nearly everything we'd planned from the outset.
