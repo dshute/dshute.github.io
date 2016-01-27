@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Bacongamejam 2016"
-date:   2016-01-24 23:05:59
+date:   2016-01-27 09:54:59
 categories: gamedev  
 ---
 
