@@ -7,7 +7,7 @@ categories: gamedev
 
 It's been a busy day. I've been working on Unity tutorials for awhile and it's starting to feel a little repetitious. It's failing to hold my attention very well. It feels like I'm pushing up against the edges of what's actually beneficial. Seems like the best thing for me at this point will be to start working toward goals and figuring things out.
 
-The plan now is to start working toward building the pieces of a 8/16bit style JRPG. The mechanics of that type of game, when you look at the standards, are pretty standard.
+The plan now is to start working toward building the pieces of a 8/16bit style JRPG. The mechanics of that type of game, when you look at the standards, are pretty consistent.
 
 * map navigation
 * combat
@@ -17,13 +17,16 @@ The plan now is to start working toward building the pieces of a 8/16bit style J
 * bestiary
 * experience / leveling
 * random encounters
+* character persistence / save / load
+* soundtrack music
+* sound fx
 
-I'm sure there's a bunch of shit that I haven't thought of just yet, and that's kind of the point. My intention is to break down all the functionality and solve the pieces as they come. I'm not planning to build up a full game, just the framework that would all me to do so, in the end.
+I'm sure there's a bunch of shit that I haven't thought of just yet, and that's kind of the point. My intention is to break down all the functionality and solve the pieces as they come. I'm not planning to build up a full game, just the framework that would allow me to do so, in the end.
 
 I managed to [bang out some of the functionality today](https://github.com/dshute/GetTheeTTB).
 
-I did some really quick states for a sprite sheet in GIMP using the [Fuse Layers](http://registry.gimp.org/node/25129) script. It's really straight forward. Cram whatever you need onto separate layers and then run the Fuse Layers filter.
+I did some really quick states for a sprite sheet in GIMP using the [Fuse Layers](http://registry.gimp.org/node/25129) script. It's straight forward. Cram whatever you need onto separate layers and then run the Fuse Layers filter. I'll probably be looking at [asperite](http://www.aseprite.org/) in the future, or possibly creating content in Blender with a fixed orthographic camera and exporting that. I haven't quite decided which direction to take just yet.
 
-Dropped the sprite sheet into and set up the animations. Created the player controller to run player movement, idle states, and movement animations. I had a system change and needed to grab the repo. It turns out that I didn't save the project, so a bunch of animation stuff was missing. Re-did all the animation stuff. Added a temporary background and added a camera controller to follow the player around.
+Dropped the sprite sheet into the scene and set up the animations. Created the player controller to run player movement, idle states, and movement animations. I had a system change and needed to grab the repo. It turns out that I didn't save the project, so a bunch of animation stuff was missing. Re-did all the animation stuff. Added a temporary background and added a camera controller to follow the player around.
 
 It's depressing how long this all took me. I've got enough stumbling blocks that I could write a whole bunch, but I don't have time for a whole bunch, so I'm leaving it here.
