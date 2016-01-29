@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Get Thee to the Bunker"
+date:   2016-01-28 22:54:59
+categories: gamedev  
+---
+
+It's been a busy day. I've been working on Unity tutorials for awhile and it's starting to feel a little repetitious. It's failing to hold my attention very well. It feels like I'm pushing up against the edges of what's actually beneficial. Seems like the best thing for me at this point will be to start working toward goals and figuring things out.
+
+The plan now is to start working toward building the pieces of a 8/16bit style JRPG. The mechanics of that type of game, when you look at the standards, are pretty standard.
+
+* map navigation
+* combat
+* scripted sequences
+* npc interaction
+* status / inventory gui
+* bestiary
+* experience / leveling
+* random encounters
+
+I'm sure there's a bunch of shit that I haven't thought of just yet, and that's kind of the point. My intention is to break down all the functionality and solve the pieces as they come. I'm not planning to build up a full game, just the framework that would all me to do so, in the end.
+
+I managed to [bang out some of the functionality today](https://github.com/dshute/GetTheeTTB).
+
+I did some really quick states for a sprite sheet in GIMP using the [Fuse Layers](http://registry.gimp.org/node/25129) script. It's really straight forward. Cram whatever you need onto separate layers and then run the Fuse Layers filter.
+
+Dropped the sprite sheet into and set up the animations. Created the player controller to run player movement, idle states, and movement animations. I had a system change and needed to grab the repo. It turns out that I didn't save the project, so a bunch of animation stuff was missing. Re-did all the animation stuff. Added a temporary background and added a camera controller to follow the player around.
+
+It's depressing how long this all took me. I've got enough stumbling blocks that I could write a whole bunch, but I don't have time for a whole bunch, so I'm leaving it here.
