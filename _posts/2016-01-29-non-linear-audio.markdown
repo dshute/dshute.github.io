@@ -45,7 +45,7 @@ categories: gamedev
 
   There's an obvious problem in that I'm not clear if the AudioClip / AudioSource content will easily map in a dictionary and whether I can reference it using a string.
 
-  Took the script, as it exists, and dropped it into Unity with a few minor changes. However, a dictionary does expose as something you can modify through the Unity interface.
+  Took the script, as it exists, and dropped it into Unity with a few minor changes. However, a dictionary doesn't expose as something you can modify through the Unity interface.
 
   This totally works...
 
