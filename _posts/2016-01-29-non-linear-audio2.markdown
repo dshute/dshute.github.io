@@ -113,6 +113,7 @@ categories: gamedev
                           destinationClips.Add(clips[i]);
                   break;
           }
+          
           currentClip = destinationClips[Mathf.FloorToInt(Random.Range(0f, destinationClips.Count))];        
       }
 
