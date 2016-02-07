@@ -7,21 +7,13 @@
 			- kill column 1
 			- resize 2 & 3 to take the space
 			- update the social media list to add email
-			- figure out additional footer links to add			
-	--> 
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col  footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
+			- figure out additional footer links to add
+	-->
 
 	  <div class="footer-col  footer-col-2">
         <p class="text">{{ site.description }}</p>
       </div>
-	  
+
       <div class="footer-col  footer-col-3">
         <ul class="social-media-list">
           {% if site.github_username %}
@@ -52,7 +44,7 @@
             </a>
           </li>
           {% endif %}
-		  
+
           {% if site.twitter2_username %}
           <li>
             <a href="https://twitter.com/{{ site.twitter2_username }}">
@@ -66,13 +58,9 @@
               <span class="username">{{ site.twitter2_username }}</span>
             </a>
           </li>
-          {% endif %}		  
+          {% endif %}
         </ul>
       </div>
-
-
-    </div>
-
   </div>
 
 </footer>
