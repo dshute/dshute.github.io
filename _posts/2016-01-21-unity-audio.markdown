@@ -23,15 +23,15 @@ This also doesn't account for not having uniform clips. A time signature change,
 
 The next thing I wanted to change was this:
 
-<pre>
+{% highlight csharp %}
 public AudioClip[] clips = new AudioClip[2];
-</pre>
+{% endhighlight %}
 
 It's just not enough tracks. Easy enough to solve.
 
-<pre>
+{% highlight csharp %}
 public AudioClip[] clips;
-</pre>
+{% endhighlight %}
 
 
 Now Unity will ask me how many clips to use and give me an element for each one to drop in any clip that I want.
@@ -42,21 +42,21 @@ This was just a flat out misunderstanding of how it was working to begin with. T
 
 Moving on to the Start() method, I didn't really change much other than to get rid of the while-loop. It just didn't read as cleanly for me as a for-loop does. With that in mind I restructured it.
 
-<pre>
+{% highlight csharp %}
 for (int i = 0; i < 2; i++)
 {
     GameObject child = new GameObject("Player");
     child.transform.parent = gameObject.transform;
     audioSources[i] = child.AddComponent&lt;AudioSource>();
 }
-</pre>
+{% endhighlight %}
 
 
 It does nothing different, but it makes me feel better about how the code reads.
 
 The last major change I needed to make was allowing it to use the length of the clip to set the next schedule time and allow it to cycle through an arbitrary number of audio clips.
 
-<pre>
+{% highlight csharp %}
 if (time + 1.0F > nextEventTime)
 {
     audioSources[flip].clip = clips[currentClip];
@@ -66,13 +66,13 @@ if (time + 1.0F > nextEventTime)
     flip = 1 - flip;
     currentClip = (currentClip < clips.Length - 1) ? currentClip + 1 : 0;
 }
-</pre>
+{% endhighlight %}
 
 #### The Full Source
 
 I kept a decent amount of the original code, but here's where I ended up.
 
-<pre>
+{% highlight csharp %}
 using UnityEngine;
 using System.Collections;
 
@@ -87,11 +87,11 @@ public class MusicQueue : MonoBehaviour
 
     private AudioSource[] audioSources = new AudioSource[2];
     private bool running = false;
-</pre>
+{% endhighlight %}
 
 I've pulled out the clip length calculation content, modified clips to be an arbitrary length based on instance configuration, and introduced an integer to keep track of what clip is currently playing.
 
-<pre>
+{% highlight csharp %}
     void Start()
     {
         for (int i = 0; i < 2; i++)
@@ -103,11 +103,11 @@ I've pulled out the clip length calculation content, modified clips to be an arb
         nextEventTime = AudioSettings.dspTime + 2.0F;
         running = true;
     }
-</pre>
+{% endhighlight %}
 
 I really didn't change anything here other than to modify the while-loop to a for-loop.
 
-<pre>
+{% highlight csharp %}
     void FixedUpdate()
     {
         if (!running)
@@ -124,7 +124,7 @@ I really didn't change anything here other than to modify the while-loop to a fo
         }
     }
 }
-</pre>
+{% endhighlight %}
 
 Here's one that I'm not sure about. When I was testing this using the Update() method I initially got a bit of odd bleed. I don't know why, but the second track started playing over the first. Given that seamless audio is a time sensitive activity I changed it to FixedUpdate() and it's worked flawlessly ever since. I know this is meant for physics calculations, but it seems to be working fine here.
 

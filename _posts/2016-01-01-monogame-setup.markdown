@@ -19,9 +19,9 @@ I created an OUYA project as the first thing. It blew up wonderfully from the ge
 
 Created a default Windows application. This was a bit smoother. It created and built appropriately, followed by an error.
 
-> An unhandled exception of type 'System.DllNotFoundException' occurred in SharpDX.XInput.dll
->
-> Additional information: Unable to load DLL 'xinput1_3.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)
+*An unhandled exception of type 'System.DllNotFoundException' occurred in SharpDX.XInput.dll*
+
+*Additional information: Unable to load DLL 'xinput1_3.dll': The specified module could not be found. (Exception from HRESULT: 0x8007007E)*
 
 It looked like I was missing the DirectX runtime, which didn't make sense as dxdiag was showing DX11, as I expected. Turns out, requires an old version of DirectX. Amazeballs. Installed DX 9.0c and things seems to be working fine.
 

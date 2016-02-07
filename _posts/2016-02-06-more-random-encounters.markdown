@@ -16,7 +16,8 @@ As I was thinking about this I started to move a little bit sideways to all the 
 #### Triggering Random Encounters
 
 This seems like a basic enough problem, create a Box Collider 2D around an area (or create a compound collider) and attach a script to it. Within the OnTriggerStay2D method, pick a reasonable value to be a "hit" for a random encounter. I tested out with the following and it seems to hitting about once a second. It'd certainly needed to be ramped down a bit, but that's a matter of changing the value.
-<pre>
+
+{% highlight csharp %}
 void OnTriggerStay2D(Collider2D other)
 {
 		float check = Random.Range(0f, 1f);
@@ -26,7 +27,8 @@ void OnTriggerStay2D(Collider2D other)
 				// call encounter function here
 		}
 }
-</pre>
+{% endhighlight %}
+
 This should really be something surfaced as a public variable anyway, to allow different areas to have different encounter frequencies.
 
 #### Populating Random Encounters

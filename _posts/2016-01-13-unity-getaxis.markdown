@@ -19,7 +19,7 @@ I started with the <a href="http://docs.unity3d.com/ScriptReference/Input.GetAxi
 
 Admittedly, these are going to be terrible. I am not a programmer.
 
-<pre>
+{% highlight csharp %}
 float horizontal = Input.GetAxis("Horizontal");
 float vertical = Input.GetAxis("Vertical");
 int movement = 0
@@ -36,7 +36,7 @@ else if (Mathf.Abs(horizontal) < Mathf.Abs(vertical))
   movement = (vertical > 0) ? 1 : -1;
   movePlayer(0, movement);
 }  
-</pre>
+{% endhighlight %}
 
 This effectively allowed me to move in a single direction, but ignored a couple of other things. Most of all, it bothered me that I needed to get an absolute value from the input values to begin with.
 

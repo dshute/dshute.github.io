@@ -8,7 +8,7 @@ I've been thinking about how to do random encounters as part of Get Thee To The 
 
 I prefer Ruby for quickly testing out ideas. So that's what I did.
 
-<pre>
+{% highlight ruby %}
 def monstercheck(enemy_hash, choice)
 	check = 0
 	enemy_hash.each { |enemy, value|
@@ -36,7 +36,7 @@ enemies.each { |enemy, value|
 cumulative = cumulative * 10
 monster = (rand(cumulative))  / 10
 puts monstercheck(enemies, monster + 1)
-</pre>
+{% endhighlight %}
 
 I'm sure this is sloppy as hell, but it certainly gets the job done. There are some other considerations, but this solves the primary problem of weighted random selection.
 
