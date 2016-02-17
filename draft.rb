@@ -47,16 +47,13 @@ when "new"
     puts "\n\tNew draft created - _drafts/#{ARGV[1]}.markdown"
     File.open("_drafts/#{ARGV[1]}.markdown", "w")
   else
-    puts "\n\tdraft new {post title}"
+    puts "\n\tdraft new {filename}"
   end
-
 when "post"
-
   BuildPost(ARGV) unless ARGV.length < 3
-
 else
-  puts "\n\tdraft new {post title} - creates a new draft with given title"
-  puts "\n\tdraft post - updates and moves draft to posts"
-
+  puts "\n\tdraft new {filename} - creates a new draft with given title"
+  puts "\n\tdraft post {title} {tag} - updates and moves draft to posts"
 end
+
 puts
