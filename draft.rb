@@ -8,37 +8,32 @@
 # will automatically grab the first results for post
 
 def BuildPost (args)
-  postFile = String.new
+  postFile = args[1] + ".markdown"
 
-  # grab the first .markdown entry in the drafts directory
-  files = Dir.entries("_drafts")
-  files.each { |file|
-    if file.include? ".markdown"
-      postFile = file
-      break
-    end
-  }
-  # so long as there's a result... do shit.
-  unless postFile == ""
+  if File.exist?("_drafts/#{postFile}")
     newFile = "_posts/" + Time.now.strftime("%Y-%m-%d-") + postFile
-    oldFile = File.read("_drafts/" + postFile)
-
+    oldFile = File.read("_drafts/#{postFile}")
     File.open(newFile, "w") { |file|
       file.puts "---"
       file.puts "layout: post"
-      file.puts "title: #{args[1]}"
+      file.puts "title: #{args[2]}"
       file.puts "date:   #{Time.now.strftime("%Y-%m-%d %H:%M:%S")}"
-      file.puts "categories: #{args[2]}"
+      file.puts "categories: #{args[3]}"
       file.puts "---"
       file.puts oldFile
     }
-
-    File.delete("_drafts/" + postFile)
-
+    File.delete("_drafts/#{postFile}")
   else
-    puts "\n\tNo drafts to post."
-    puts "\tCreate new draft - draft new {filename}"
+    puts "\n\tNo draft to post names #{postFile}"
+    puts "\t create new draft - draft new {filename}"
   end
+end
+
+def ListDrafts()
+  files = Dir.entries("_drafts")
+  files.each { |file|
+    puts file unless file == "." || file == ".."
+  }
 end
 
 case ARGV[0]
@@ -49,11 +44,13 @@ when "new"
   else
     puts "\n\tdraft new {filename}"
   end
+when "list"
+  ListDrafts()
 when "post"
-  BuildPost(ARGV) unless ARGV.length < 3
+  BuildPost(ARGV) unless ARGV.length < 4
 else
   puts "\n\tdraft new {filename} - creates a new draft with given title"
-  puts "\n\tdraft post {title} {tag} - updates and moves draft to posts"
+  puts "\n\tdraft post {filename} {title} {tag} - updates and moves draft to posts"
 end
 
 puts
