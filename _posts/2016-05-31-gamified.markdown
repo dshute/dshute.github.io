@@ -1,0 +1,21 @@
+---
+layout: post
+title: Gamified Life
+date:   2016-05-31 21:43:52
+categories: personal
+---
+I've been thinking a lot lately about the psychology of conformity and obedience. Much of it on how those things might impact me as tester. Through the joys of the [frequency illusion](http://rationalwiki.org/wiki/Frequency_illusion), [this article](https://medium.com/swlh/how-technology-hijacks-peoples-minds-from-a-magician-and-google-s-design-ethicist-56d62ef5edf3#.mmdvoohpl) fortuitously popped up in my news feeds. While I've been poking through [Asch](http://www.simplypsychology.org/asch-conformity.html), [Milgram](http://www.simplypsychology.org/milgram.html), [Zimbardo](http://www.prisonexp.org/), and [Hofling](http://www.simplypsychology.org/hofling-obedience.html), I hadn't made my way to technological direction just yet. I'm a little surprised that I hadn't gotten there, as I've made some conscious decisions to remove many of the hijacks from my own life.
+
+I'm not a social media junkie and this is by design. I have a Facebook account, but I rarely ever log into it. It's entirely a directed communication platform that I only use when I need to contact someone who I have no other communication with.
+
+I use twitter quite a bit more, but in a very lopsided manner. I follow a very limited number of people and almost never interact. I've setup tweetdeck to only show my stream, no notifications, and never check it unless I'm already there to post something.
+
+The various calls that Linkedin makes to try and monopolize my time only remind me how much I don't want to be there.
+
+My phone is black brick that I carry with me. It does not vibrate. It does not flash. It most certainly does not make any noise at me. It is an accompaniment that enables more than it drains. It's where I read my books. It's where I listen to music. It's how I keep in contact with my wife throughout the day. It's occasionally a camera or a notepad or a voice recorder when there's something I want to capture in the moment. It is not my automatic response.
+
+I have a pretty extensive set of rss subscriptions, but these are time fillers. I parse through them when I need or have a moment of downtime. I've consciously removed all rss reading when I'm in bed or as a method of procrastination. As soon as I realized I was spending more time chasing information than ingesting and applying it, I knew that had to stop.
+
+I tend to use my computer, my phone, and any connected devices with intention. That includes when the intention is to aimlessly spend time. It is acknowledged time spent in internet quicksand.
+
+Much of this came from working on projects and failing them in various aspects. On seeing how much of my time was being pulled by things that _simply were not important to me_, I went out of my way to start paring them down (pats self on back). It seems like I have a decent handle on it, but that just implies to me that there are entire blind spots where I have zero clue how I'm being prodded to surrender my time. As I tease them out I suspect they'll be equal parts revelatory and mind numbingly banal.
