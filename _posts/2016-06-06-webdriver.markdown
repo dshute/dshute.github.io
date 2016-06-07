@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Attempting to Automation with watir-webdriver and page-object
+title: Attempting Automation with watir-webdriver and page-object
 date:   2016-06-06 22:14:26
 categories: automation
 ---
