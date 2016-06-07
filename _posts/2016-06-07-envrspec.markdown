@@ -1,0 +1,69 @@
+---
+layout: post
+title: Passing Environment Variables Through RSpec
+date:   2016-06-07 18:58:56
+categories: automation
+---
+So, playing with rspec and watir-webdriver to do some web UI automation. One of the requirements would be that I can easily pass in environment variables. Setting up those variables is easy; cram it all into a YAML file and parse what I need out of the hash.
+
+_config.yml_
+{% highlight yaml %}
+production:
+  site: productionurl.com
+  user: fake@email.com
+  pass: password
+
+staging:
+  site: stagingurl.com
+  user: fake2@email.com
+  pass: password
+{% endhighlight %}
+
+I can't pass anything through rspec, that I'm aware of, so I can't really use that directly.
+
+It took me a little bit of searching, but I think the easiest way for me to do what I want is to push all the config details into the environment variables.
+
+These only last as long as the application setting them, so they seem like an easy and transient way achieve what I'm trying to do.
+
+_config.rb_
+{% highlight ruby %}
+require 'yaml'
+
+conf = YAML.load_file("config.yml")
+
+conf["production"].each { |key, value|
+  ENV[key] = value
+}
+{% endhighlight %}
+
+Neat.
+
+Modifying this to take command line arguments to support multiple environments is trivial. However, I'm not particularly fond of using this to then call rspec. So, rake?
+
+_Rakefile_
+{% highlight ruby %}
+require 'yaml'
+require 'rspec/core/rake_task'
+
+RSpec::Core::RakeTask.new :production do
+  load_config("production")
+end
+
+RSpec::Core::RakeTask.new :staging do
+  load_config("staging")
+end
+
+task :default => :production
+
+def load_config(environment)
+  conf = YAML.load_file("config.yml")
+
+  conf[environment].each { |key, value|
+    ENV[key] = value
+  }
+end
+{% endhighlight %}
+
+From there it's a matter of referencing the environment variables within my specs. In this case, rather than typing out ENV["site"] every time I'm going to use it I just save the value as an instance variable _@site = ENV["site"]_, as an example, in *spec_helper.rb*
+
+I have no idea if this is the best way to do this. I'm not even sure if this is an acceptable way to do this. It gets the job done for now and allows me to move forward with other parts of the project.
