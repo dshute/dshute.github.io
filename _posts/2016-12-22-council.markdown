@@ -1,0 +1,31 @@
+---
+layout: post
+title: Being One's Own Council and Critic
+date:   2016-12-22 23:03:24
+categories: testing
+---
+I'm starting a new job early in January. It's exciting and necessary and terrifying all at the same time. After five years of working at Igloo Software, I'm moving to Bridgit to build up a software testing department from scratch. I have no question that I can do the job. What's terrifying is the unique situation of being entirely on my own, for at least awhile.
+
+It's a first for me. I've always had a couple of peers to collaborate with in my previous roles. I've been lucky enough to almost always have at least one person around to call me out when I'm wrong, full of shit, or just being stubborn. That's an invaluable type of collaborator to have around and I know I'm going to miss it.
+
+I'm going to miss it, but I can't let it impact the quality of my work.
+
+This leads me to question how, as the only tester, I will compensate for the lack of internal peers to work with. How can I remediate the risk of falling prey to my blind spots?
+
+Naturally, I can look outside the company. I have a fairly robust network of peers that I trust. The local professional association, [KWSQA](http://kwsqa.org), is also a fantastic resource for me to lean on. The inherent problem here is that context and depth naturally die in translation to an outsider. Doubly so when NDAs and complexity break down the coherency of information further. Even well intentioned people can only do so much with limited information.
+
+I know I will be relying significantly on internal peers from other disciplines. A fundamental starting point is going to working with all the internal groups to even start to define what _quality_ is going to mean at Bridgit. Here the problem is flipped, however. I will have people who will deeply understand the context and complexity, but will likely not have the software testing domain skills and experience to act as robust sounding boards.
+
+These two in collaboration are going to give me a decent amount of information, but I don't believe it covers all the feedback I will need to be effective in this new role. At this point, I believe the best way to alleviate some of that concern is to start writing things down. To become my own council and critic.
+
+By physically writing things down to paper I am forcing myself to slow down to the efficiency of a pen in my hand. This is much slower than my typing speed and gives me time to think about what I'm writing in the moment. It's also flexible, in that I can step away from a monitor and focus on getting ideas and solutions down to page. I can then come back to review and interrogate my thinking at a later time.
+
+* Does it stand up to scrutiny?
+* Is it coherent?
+* Is it internally consistent?
+* Is it complete?
+* Did I miss viable alternative paths?
+
+There's more work to be done here, to clarify how I should interrogate my own thoughts. So, I'm going to be writing things down. A lot. In notebooks, on this blog, and likely in dispatches back to the company.
+
+I'm staring down the barrel of a ton of work and I can't wait to get started.
