@@ -1,13 +1,15 @@
+#!/usr/bin/env ruby
+#
 # draft.rb
 #
 # simple tool to generate drafts and then push them to post
-# mostly used to avoid naming shit and update metadata
+# mostly used to avoid naming files and updating metadata
 #
 # post grabs the first thing it can find and moves that
 # will not work for managing multiple files
 # will automatically grab the first results for post
 
-def BuildPost (args)
+def BuildPost(args)
   postFile = args[1] + ".markdown"
 
   if File.exist?("_drafts/#{postFile}")
