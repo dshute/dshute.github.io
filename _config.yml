@@ -1,7 +1,7 @@
 # Site settings
 title: Working with a Broken Machine
 email: hey.ugly@davidshute.ca
-description: Writer. Musician. Media dabbler. Language enthusiast. Homebrewer. Software tester. Man with too many hobbies.
+description: Software tester. Screenwriter. Musician. Media dabbler. Language enthusiast. Homebrewer. Man with too many hobbies.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://dshute.github.io" # the base hostname & protocol for your site
 twitter_username: davidshute
