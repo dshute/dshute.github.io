@@ -52,7 +52,7 @@ Given that we can't give the same type of assessments as those found in manufact
 
 Even if we're not comfortable with accepting the lineage, people still identify with the legacy of what quality assurance means. This leads to stakeholders / leaders / customers to value explicit statements of assurance. This is how we end up with companies fetishising scripted regression suites because they provide hard numbers. There is very little I find more distressing than when [reification](https://www.logicallyfallacious.com/tools/lp/Bo/LogicalFallacies/154/Reification) and [Goodhart's Law](http://www.atm.damtp.cam.ac.uk/mcintyre/papers/LHCE/goodhart.html) get drunk together.
 
-Qualitative measures can not be quantitative. And quantitative measures probably should not be a substitute for quantitative measures.
+Qualitative measures can not be quantitative. And quantitative measures probably should not be a substitute for qualitative measures.
 
 #### Yeah? So what?
 
