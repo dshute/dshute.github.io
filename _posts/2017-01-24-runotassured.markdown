@@ -64,7 +64,7 @@ Do we? I'm not so sure about that. Even if we did, that's not a thing anymore th
 * We can assert that our understanding of system does not include any significant problems (that we've found).
 * We can assert that are definitely bugs still in the system (that we believe are likely to be minimal hindrances or obscure corner cases)
 
-The foundational statement of proving the system works is not objectively possible. We can not assure the quality of the system, not in the manner
+The foundational statement of proving the system works is not objectively possible. We can not assure the quality of the system, not in the manner any one expects of us.
 
 If we're not quality assurance, if we can't reasonable assure the quality of the system, then what are we?
 
