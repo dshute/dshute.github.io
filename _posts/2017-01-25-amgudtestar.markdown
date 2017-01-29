@@ -51,6 +51,7 @@ You may have noticed I left my personal allergy off that list: *passion*. {inser
 This one rattles me more than it should as it generally seems like it's used as little more than a personal achievement. The little pat on one's own back, for being one of the "good ones."
 
 Maybe I'm wrong and maybe passion is critical, but passion for what?
+
 * passion as a proxy for the user?
 * passion for limited bugs in a product?
 * passion for a good job review / compensation package?
