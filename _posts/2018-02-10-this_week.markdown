@@ -6,7 +6,7 @@ categories: links
 ---
 Just some stuff that I saw this week worth sharing along.
 
-An episode of The Nod that's worth listening to (along with the rest of the archive): [Sister, Sister from the Nod](https://www.gimletmedia.com/the-nod/sister-sister#episode-player)
+An episode of The Nod that's worth listening to (along with the rest of the archive): [Sister, Sister](https://www.gimletmedia.com/the-nod/sister-sister#episode-playeR)
 
 A quick software testing blog post from Michael Bolton: [Testing and Management Efficiency](http://www.developsense.com/blog/2018/02/efficiency/)
 
