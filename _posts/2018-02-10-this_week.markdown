@@ -1,0 +1,17 @@
+---
+layout: post
+title: Notable Content This Week
+date:   2018-02-10 23:58:46
+categories: links
+---
+Just some stuff that I saw this week worth sharing along.
+
+An episode of The Nod that's worth listening to (along with the rest of the archive): [Sister, Sister from the Nod](https://www.gimletmedia.com/the-nod/sister-sister#episode-player)
+
+A quick software testing blog post from Michael Bolton: [Testing and Management Efficiency](http://www.developsense.com/blog/2018/02/efficiency/)
+
+A browser plugin that finds papers at alternate sources that aren't hidden behind paywalls: [unpaywall](http://unpaywall.org)
+
+A research paper that is well described by its title: [HbA1c, diabetes and cognitive decline: the English Longitudinal Study of Ageing](https://link.springer.com/article/10.1007/s00125-017-4541-7)
+
+And a bunch of free textbooks, if you're into that sort of thing: [Openstax Textbooks](https://openstax.org/)
