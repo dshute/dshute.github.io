@@ -15,6 +15,7 @@ def displayMenu()
 	puts "1. create new"
 	puts "2. publish existing"
 	puts "3. list existing"
+	puts "q.uit"
 end
 
 def listFiles()
